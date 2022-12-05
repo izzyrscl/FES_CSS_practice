@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.smallbox-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-box{
+    border: 2px dashed red;
+    height: 75px;
+    width: 75px;
+    margin-left: 24px;
+}
+
+.big-box{
+    border: 2px dashed red;
+    height: 100px;
+    width: 100px;
+
+}
